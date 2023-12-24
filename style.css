@@ -1,0 +1,68 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.mainBody {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+.headBody {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    color: #495057;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.midBody {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.toDoRemain,
+.toDoDone {
+    flex: 1;
+    margin-top: 20px;
+}
+
+.list-group {
+    margin-top: 10px;
+}
+
+.list-group-item {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin-bottom: 5px;
+}
